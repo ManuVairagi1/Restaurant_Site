@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: josefin sans, sans-serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 75px;
+  width: 700px;
+  text-align: right;
+  margin-left: 730px;
+}
+
+.navBar li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: josefin sans, sans-serif;
+  color: #091a23;
+  font-weight: 600;
+  padding: 20px 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.navBar li:hover {
+  color: orange;
+  transition: 0.5s ease;
+}
+.navBar :nth-child(6) {
+  border: orange 1px solid;
+  border-radius: 5px;
+}
+.navBar :nth-child(6):hover {
+  color: white;
+  background-color: #ff5600;
+  transition: linear 0.2s;
+}
+
+.logo {
+  display: inline;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.homePage {
+  background-image: url(images/h1_hero.webp);
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.homePage h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ff5600;
+  padding-left: 24px;
+}
+.believe {
+  font-size: 87px;
+  line-break: auto;
+  word-break: break-all;
+  margin: 0;
+  font-family: josefin sans, sans-serif;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 24px;
+}
