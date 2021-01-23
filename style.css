@@ -141,3 +141,28 @@ nav {
   font-size: 20px;
   padding: 10px;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  background-image: url(images/section_bg01.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuNavbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-size: 25px;
+  margin-top: 110px;
+  font-family: josefin sans, sans-serif;
+}
+
+.menuNavbar :nth-child(1) {
+  border: 1px solid #ff5600;
+  padding: 13px;
+  background-color: #ff5600;
+  color: white;
+}
