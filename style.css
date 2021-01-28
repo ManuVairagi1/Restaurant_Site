@@ -34,6 +34,9 @@ nav {
 .navBar :nth-child(6) {
   border: orange 1px solid;
   border-radius: 5px;
+  height: 40px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 .navBar :nth-child(6):hover {
   color: white;
@@ -165,4 +168,20 @@ nav {
   padding: 13px;
   background-color: #ff5600;
   color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  justify-items: stretch;
+}
+
+.grid > div img {
+  width: 100%;
+  height: 100%;
+}
+.gallery1 {
+  display: grid;
+  height: 100%;
+  width: 100%;
 }
